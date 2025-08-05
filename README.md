@@ -67,7 +67,12 @@ swarm-fault-tolerance/
 
 ### TL;DR
 Clone → Install deps → Run an experiment.
-
+```bash
+git clone https://github.com/icra2026ano/swarm-fault-tolerance.git
+cd swarm-fault-tolerance
+pip install -r requirements.txt
+python experiments/run_main_comparison.py
+```
 
 ### How to Run Comparisons
 
