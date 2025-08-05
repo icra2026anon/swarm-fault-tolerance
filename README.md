@@ -178,10 +178,9 @@ python analysis/generate_statistics_table.py
 - Reduce `run_time` for quick tests
 
 ---
-This repo is designed for reproducibility. 
-If you run into trouble, check the [Troubleshooting](#troubleshooting) section 
-Or open an issue — we’ve tested it on Python 3.8+ with Ubuntu 20.04.  
-Happy experimenting!
+This repo is designed for reproducibility.
+If you encounter any issues, please check the [Troubleshooting](#troubleshooting) section
+or open a GitHub issue. Tested on Python 3.8+ with Ubuntu 20.04.
 
 
 
