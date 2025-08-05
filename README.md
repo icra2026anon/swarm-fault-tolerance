@@ -145,7 +145,7 @@ robustness_tests:
 ```bash
 python analysis/generate_scaling_figure.py
 ```
-
+  
 ### Figure 4: Method Comparison
 ```bash
 python analysis/generate_comparison_figure.py
@@ -172,11 +172,13 @@ python analysis/generate_statistics_table.py
 2. **Slow simulations**: Use `--quiet` flag to suppress output
 3. **Reproducibility**: Always set `random_seed` in configuration
 
+
+
 ### Performance Tips
 
 - Use fixed arena mode for faster simulations
 - Reduce `run_time` for quick tests
-
+- Use parallel processing for multiple trials
 ---
 This repo is designed for reproducibility.
 If you encounter any issues, please check the [Troubleshooting](#troubleshooting) section
@@ -184,5 +186,4 @@ or open a GitHub issue. Tested on Python 3.8+ with Ubuntu 20.04.
 
 
 
-- Use parallel processing for multiple trials
 
