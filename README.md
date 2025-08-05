@@ -49,7 +49,7 @@ pip install -r requirements.txt
 swarm-fault-tolerance/
 ├── src/
 │   ├── core/            # Core source codes
-│   │   ├── drone.py     # Base implementation
+│   │   ├── agent.py     # Base implementation
 │   │   ├── simulator.py # Base simulator framework
 │   │   └── metrics.py   # Metrics
 │   ├── methods/         # Fault detection methods
